@@ -3,105 +3,130 @@ package main
 import "fmt"
 
 func main() {
-	// linea de constante declaracion
-	const pi float64 = 3.1416
-	const nombre = "Jorge Luis"
-	fmt.Println("Nombre:", nombre)
-	fmt.Println("pi:", pi)
 
-	// declaracion de variable enteras
+	/*
+		// linea de constante declaracion
+		const pi float64 = 3.1416
+		const nombre = "Jorge Luis"
+		fmt.Println("Nombre:", nombre)
+		fmt.Println("pi:", pi)
 
-	/*base := 22
-	var altura int = 182
-	var peso int
+		// declaracion de variable enteras
 
-	fmt.Println("base:", base)
-	fmt.Println("altura:", altura)
-	fmt.Println("peso:", peso)
+		base := 22
+		var altura int = 182
+		var peso int
 
-	var a int
-	var b float64
-	var c string
-	var d bool
+		fmt.Println("base:", base)
+		fmt.Println("altura:", altura)
+		fmt.Println("peso:", peso)
 
-	fmt.Println(a, b, c, d)*/
+		var a int
+		var b float64
+		var c string
+		var d bool
 
-	// ejercicio el cuadrado de un numero
+		fmt.Println(a, b, c, d)
 
-	/*const baseCuadrado = 50
-	area := baseCuadrado * baseCuadrado
-	fmt.Println(" el area del cuadro es:", area)*/
+		// ejercicio el cuadrado de un numero
 
-	/*const baseCuadrado = 10
-	areaCuadrado := baseCuadrado * baseCuadrado
+		const baseCuadrad = 50
+		area := baseCuadrad * baseCuadrad
+		fmt.Println(" el area del cuadro es:", area)
 
-	fmt.Println("El área del cuadrado es:", areaCuadrado)*/
+		const baseCuadrado = 10
+		areaCuadrado := baseCuadrado * baseCuadrado
 
-	// operators in goland
+		fmt.Println("El área del cuadrado es:", areaCuadrado)
 
-	x := 10
-	y := 20
-	//suma
-	suma := x + y
-	fmt.Println(suma)
-	//resta
-	resta := x - y
-	fmt.Println(resta)
-	//multiplicacion
-	mult := x * y
-	fmt.Println(mult)
-	// division
-	div := x / y
-	fmt.Println(div)
-	// modulo
-	mod := x % y
-	fmt.Println(mod)
-	//incrementar
-	x++
-	fmt.Println(x)
-	//decrementar
-	x--
-	fmt.Println(x)
+		// operators in goland
 
-	// Rectángulo
-	baseRectangulo := 20
-	alturaRectangulo := 10
+		x := 10
+		y := 20
+		//suma
+		suma := x + y
+		fmt.Println(suma)
+		//resta
+		resta := x - y
+		fmt.Println(resta)
+		//multiplicacion
+		mult := x * y
+		fmt.Println(mult)
+		// division
+		div := x / y
+		fmt.Println(div)
+		// modulo
+		mod := x % y
+		fmt.Println(mod)
+		//incrementar
+		x++
+		fmt.Println(x)
+		//decrementar
+		x--
+		fmt.Println(x)
 
-	areaRectangulo := baseRectangulo * alturaRectangulo
+		// Rectángulo
+		baseRectangulo := 20
+		alturaRectangulo := 10
 
-	fmt.Println("El Area del Rectángulo es :", areaRectangulo)
+		areaRectangulo := baseRectangulo * alturaRectangulo
 
-	// Circulo : AreaCirculo = pi por radio al cudrado
-	const PI float64 = 3.14 // Constant
-	var radioCirculo float64 = 10
+		fmt.Println("El Area del Rectángulo es :", areaRectangulo)
 
-	areaCirculo := PI * radioCirculo * radioCirculo
+		// Circulo : AreaCirculo = pi por radio al cudrado
+		const PI float64 = 3.14 // Constant
+		var radioCirculo float64 = 10
 
-	fmt.Println("El Area del Circulo es :", areaCirculo)
+		areaCirculo := PI * radioCirculo * radioCirculo
 
-	// Trapecio
-	var baseUno float64 = 6
-	var baseDos float64 = 15
-	var alturaTrapecio float64 = 25
+		fmt.Println("El Area del Circulo es :", areaCirculo)
 
-	areaTrapecio := ((baseUno + baseDos) * alturaTrapecio) / 2
+		// Trapecio
+		var baseUno float64 = 6
+		var baseDos float64 = 15
+		var alturaTrapecio float64 = 25
 
-	fmt.Println("El Area del Trapecio es :", areaTrapecio)
+		areaTrapecio := ((baseUno + baseDos) * alturaTrapecio) / 2
 
-	// paquete FMT
-	// print ln para hacer salto de linea
-	fmt.Println("Hola Mundo")
-	// print f para imprimir con variables incluidas
-	// %v si no se que tipo de dato es , %d para enteros , %f para flotantes , %s para strings (cadenas de texto)
-	// la sugerencia es que si se sabe el tipo de dato , se agregue
-	cursos := 35
-	fmt.Printf("%s tiene más de %d cursos\n", nombre, cursos)
+		fmt.Println("El Area del Trapecio es :", areaTrapecio)
 
-	// Sprintf: No imprime nada en consola, simplemente lo guarda como un String. Ejemplo de uso:
-	var message string = fmt.Sprintf("%v tiene más de %v cursos\n", nombre, cursos)
-	fmt.Println(message)
+		// paquete FMT
+		// print ln para hacer salto de linea
+		fmt.Println("Hola Mundo")
+		// print f para imprimir con variables incluidas
+		// %v si no se que tipo de dato es , %d para enteros , %f para flotantes , %s para strings (cadenas de texto)
+		// la sugerencia es que si se sabe el tipo de dato , se agregue
+		cursos := 35
+		fmt.Printf("%s tiene más de %d cursos\n", nombre, cursos)
 
-	//si quiero saber el tipo de variable de un tipo de dato es asi
-	fmt.Printf("%T\n", nombre)
+		// Sprintf: No imprime nada en consola, simplemente lo guarda como un String. Ejemplo de uso:
+		var message string = fmt.Sprintf("%v tiene más de %v cursos\n", nombre, cursos)
+		fmt.Println(message)
 
+		//si quiero saber el tipo de variable de un tipo de dato es asi
+		fmt.Printf("%T\n", nombre)*/
+
+	//funciones
+
+	callFirstFunction("hola mundo")
+	value := callSecondFunction(2)
+	fmt.Println(value)
+
+	value1, value2 := dobleReturn(10)
+	fmt.Println(value1, value2)
+
+	// si quiero escapar valores , sencillamente donde recibo coloco `_
+
+}
+
+func callFirstFunction(a string) {
+	fmt.Printf(a)
+}
+
+func callSecondFunction(a int) int {
+	return a * 2
+}
+
+func dobleReturn(a int) (c, d int) {
+	return a, a * 5
 }
