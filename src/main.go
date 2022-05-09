@@ -88,4 +88,20 @@ func main() {
 
 	fmt.Println("El Area del Trapecio es :", areaTrapecio)
 
+	// paquete FMT
+	// print ln para hacer salto de linea
+	fmt.Println("Hola Mundo")
+	// print f para imprimir con variables incluidas
+	// %v si no se que tipo de dato es , %d para enteros , %f para flotantes , %s para strings (cadenas de texto)
+	// la sugerencia es que si se sabe el tipo de dato , se agregue
+	cursos := 35
+	fmt.Printf("%s tiene más de %d cursos\n", nombre, cursos)
+
+	// Sprintf: No imprime nada en consola, simplemente lo guarda como un String. Ejemplo de uso:
+	var message string = fmt.Sprintf("%v tiene más de %v cursos\n", nombre, cursos)
+	fmt.Println(message)
+
+	//si quiero saber el tipo de variable de un tipo de dato es asi
+	fmt.Printf("%T\n", nombre)
+
 }
